@@ -1,0 +1,197 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Caprasimo&display=swap');
+
+body {
+    font-family:"Anonymous Pro", monospace;
+    background-color: rgb(17, 17, 17);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .poem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container {
+    margin-bottom: 10px;
+  }
+  
+  .poem-image {
+    width: auto;
+    height: 300px;
+    border-radius: 15px;
+    border: 5px solid yellow;
+    cursor: pointer;
+  }
+  
+  .image-description {
+    font-size: 24px;
+    margin-top: 10px;
+    color: white;
+  }
+  .image-description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left-description, .right-description {
+  width: 150px; /* Adjust width as needed */
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.poem-image {
+  width: auto;
+  height: 300px;
+  border-radius: 15px;
+  border: 5px solid yellow;
+  cursor: pointer;
+}
+.full-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(17, 17, 17);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.full-screen-text {
+  max-width: 60%;
+}
+
+  
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .arrow-button:hover {
+    color: yellow;
+  }
+  
+  .poem-columns {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+  }
+  
+  .poem-column {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+  }
+  .poem-image {
+    width: 680px;          /* Maintain aspect ratio */
+    height: 380px;        /* Adjust height as needed */
+    border-radius: 60px;  /* Rounded edges */
+    border: 0.5px solid rgba(255, 244, 144, 0.50);
+    cursor: pointer;      /* Makes it clear it's clickable */
+    transition: transform .3s ease-in-out;
+    box-shadow: 0px 0px 30px -12px #FFF490;
+    object-fit: cover;  
+}
+  
+  .poem-image:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background-color: #e9ecef;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .modal button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background: #0056b3;
+  }
+  .text-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: px; /* Adjust to match your image width */
+    margin-top: 10px;
+  }
+  
+  .bottom-left-text {
+    text-align: left;
+    font-size: 24px;
+    color: white;
+  }
+  
+  .bottom-right-text {
+    text-align: right;
+    font-size: 24px;
+    color: white;
+  }
+  
