@@ -77,7 +77,7 @@ not because i forgot them — \n
 but because i don't know where they go now.\n\n
 they don't belong in everyday conversation.\n
 they show up in passing thoughts, in the quiet between tasks,\n
-in the moments i don't expect.\n
+in the moments i don't expect\n
 and then they disappear again.\n\n
 it's not the kind of grief that split me open.\n
 it didn't change the course of my life\n
@@ -88,7 +88,7 @@ it made things quieter.\n
 and it made me quieter too.\n\n\n\n\n
 i've wondered if this kind of grief taught me anything —\n
 anything worth saying out loud.\n\n
-maybe the truth is simpler than i thought. \n
+maybe the truth is simpler than i thought: \n
 maybe i only learned how to carry silence. \n\n
 how to feel something and still move through a day.\n
 how to function while slightly heavier.\n
