@@ -5,9 +5,46 @@ const images = [
   {
     src: "/jellyfish.jpg",
     leftDescription: "03.15.2025",
-    rightDescription: "you were gentle",
-    text: `<span style="color: yellow;">you were gentle</span>\n
-`
+    rightDescription: "home",
+    text: `<span style="color: yellow;">home</span>\n\n
+i loved you the way you learn a room in the dark —\n 
+by instinct, by memory, \n 
+by the shape of things that used to feel safe.\n\n
+
+we were careful with each other.\n
+gentle\n 
+as if tenderness could do the heavy lifting\n 
+as if softness alone \n 
+could hold up the roof when the rain came in.\n\n
+
+you gave me love like a quiet house —\n
+warm, \n
+but with all the lights off\n
+and i convinced myself\n 
+that was enough.\n\n 
+
+i didn't want to ask for more,\n
+because you weren't doing anything wrong\n
+and i didn't want to be the kind of person\n 
+who leaves someone behind.\n\n
+
+but love\n 
+doesn't always reach the places\b 
+where longing lives.\n 
+and kindness\n
+can still be a cage\n 
+if no one hears you pacing.\n\n 
+
+so i left.\n 
+not because i stopped loving you,\n 
+but because i finally started loving myself out loud.\n\n 
+
+and maybe that's what no one tells you —\n 
+that sometimes,\n 
+love is a beautiful room\n 
+with no door\n 
+and no place to sit.\n 
+    `
   },
   {
     src: "/rat.jpg",
