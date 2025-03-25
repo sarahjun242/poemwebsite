@@ -29,7 +29,7 @@ and i didn't want to be the kind of person\n
 who leaves someone behind.\n\n
 
 but love\n 
-doesn't always reach the places\b 
+doesn't always reach the places\n 
 where longing lives.\n 
 and kindness\n
 can still be a cage\n 
