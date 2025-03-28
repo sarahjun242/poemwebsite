@@ -89,7 +89,7 @@ it made things quieter.\n
 and it made me quieter too.\n\n\n\n\n
 i've wondered if this kind of grief taught me anything —\n
 anything worth saying out loud.\n\n
-maybe the truth is simpler than i thought: \n
+but maybe the truth is simpler than i thought: \n
 maybe i only learned how to carry silence. \n\n
 how to feel something and still move through a day.\n
 how to function while slightly heavier.\n
