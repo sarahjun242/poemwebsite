@@ -26,7 +26,7 @@ that was enough.\n\n
 i didn't want to ask for more,\n
 because you weren't doing anything wrong\n
 and i didn't want to be the kind of person\n 
-who leaves someone behind.\n\n
+who leaves someone behind again.\n\n
 
 but love\n 
 doesn't always reach the places\n 
@@ -37,7 +37,8 @@ if no one hears you pacing.\n\n
 
 so i left.\n 
 not because i stopped loving you,\n 
-but because i finally started loving myself out loud.\n\n 
+but because i needed to hear my footsteps\n
+in a home that no longer knew my name. \n\n 
 
 and maybe that's what no one tells you —\n 
 that sometimes,\n 
