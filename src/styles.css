@@ -53,6 +53,8 @@ body {
   font-size: 18px; /* reduce to make it feel tighter */
   flex: 1;
   text-align: center;
+  padding: 0; 
+  margin: 0; 
 }
 
 .left-description{ 
@@ -186,8 +188,9 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 5000px; /* Adjust to match your image width */
+    max-width: 680px; /* Adjust to match your image width */
     margin-top: 20px;
+    gap: 12px; 
   }
   
   .bottom-left-text {
@@ -248,4 +251,111 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* For mobile: center the content and make the image smaller on mobile */
+@media (max-width: 768px) {
+  .poem-container {
+    padding: 20px 24px;
+  }
+
+  .poem-image {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: none;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column ; /* Stack date and title vertically */
+    align-items: center ;
+    justify-content: center ; 
+    gap: 5px ;
+    margin-top: 15px ;
+    width: 100% ;
+    text-align: center ;
+  }
+
+  .no-left-padding{ 
+    padding-left: 0 !important; 
+  }
+
+  .left-description,
+  .right-description {
+    text-align: center ;
+    font-size: 16px ;
+    margin-top: 16px ;
+    padding: 0 ; 
+    margin-bottom: 5px ;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    position: absolute; 
+    font-size: 20px; /* Smaller arrows for mobile */
+    top: 50%;
+    left: 10px;
+    right: 10px;
+    transform: translateY(-50%); 
+    background: none; 
+    border: none; 
+    font-size: 24px; 
+    color: white; 
+    cursor: pointer; 
+    z-index: 10; 
+  }
+
+  .arrow-left {
+    left: -295px;
+    top: 90%; 
+  }
+
+  .arrow-right {
+    right: -295px;
+    top: 90%; 
+  }
+
+  .full-screen-text {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 12px;
+    line-height: 1.6;
+    text-align:  left; 
+  }
+}
+
+/* Even smaller screens (like iPhones) */
+@media (max-width: 480px) {
+  .poem-image {
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .left-description,
+  .right-description {
+    font-size: 14px;
+    margin-top: 0px; 
+  }
+
+  .arrow-left,
+  .arrow-right {
+    font-size: 18px;
+    top: 90%;
+  }
+
+  .full-screen-text {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .poem-container {
+    padding: 15px 10px; 
+  }
+
+  .text-container {
+    margin-top: 10px; 
+    gap: 3px; 
+  }
 }

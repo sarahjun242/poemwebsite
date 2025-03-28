@@ -174,8 +174,27 @@ export default function PoemDisplay() {
               ▶
             </button>
 
-            <div className="text-container">
-              <p className="left-description">
+            <div className="text-container"
+                  style = {{ 
+                    marginTop: "32px", 
+                    display: "flex", 
+                    justifyContent: "center", 
+                    alignItems: "center", 
+                    width: "100%",
+                    gap: "0px",
+                  }}
+            
+            >
+              <p className="left-description"
+                  style = {{
+                    paddingLeft: 0, 
+                    marginLeft: 0,
+                    marginRight: "0", 
+                    textAlign: 'center', 
+                    width: "auto", 
+                    display: "inline-block"
+                  }}
+              >
                 {images[currentIndex].leftDescription}
               </p>
               <p className="right-description">
