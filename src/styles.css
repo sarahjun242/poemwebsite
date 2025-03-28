@@ -308,12 +308,12 @@ body {
 
   .arrow-left {
     left: -295px;
-    top: 95%; 
+    top: 100%; 
   }
 
   .arrow-right {
     right: -295px;
-    top: 95%; 
+    top: 100%; 
   }
 
   .full-screen-text {
